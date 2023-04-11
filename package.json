@@ -1,0 +1,16 @@
+{
+  "name": "fm-interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "This is a solution build to the ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rating",
+    "interactive",
+    "rating-component"
+  ],
+  "author": "Divine Chukwunwemmeri Okafor-udah",
+  "license": "ISC"
+}
