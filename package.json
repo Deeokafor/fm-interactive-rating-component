@@ -1,10 +1,11 @@
 {
   "name": "fm-interactive-rating-component-main",
   "version": "1.0.0",
-  "description": "This is a solution build to the ",
+  "description": "This is a solution build to the Frontend Mentor's interactive-rating-component challenge",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwind -i assets/input.css -o assets/output.css --watch"
   },
   "keywords": [
     "rating",

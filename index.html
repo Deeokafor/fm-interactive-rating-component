@@ -3,47 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="assets/custom.css">
+  <link rel="stylesheet" href="assets/output.css">
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+<body class="tw-bg-ir-very-dark-blue">
+  <main class="tw-flex tw-justify-center tw-items-center tw-min-h-screen tw-text-white">
+    <div class="tw-rounded-3xl tw-flex tw-justify-center tw-h-[22rem] tw-w-[22rem] tw-bg-gradient-to-t tw-from-ir-dark-blue/40 tw-to-ir-dark-blue tw-p-7">
+      <!--rating card-->
+      <div class="tw-flex tw-flex-col tw-justify-between">
+        <div class="tw-h-9 tw-w-9 tw-p-[0.65rem] tw-flex tw-items-center tw-justify-center tw-bg-ir-medium-grey/20 tw-rounded-full"><img src="images/icon-star.svg" alt="star" class="tw-w-full"></div>
+        <div>
+          <h1 class="tw-text-2xl tw-font-bold tw-my-2">How did we do?</h1>
+          <p class="tw-text-sm tw-text-ir-medium-grey tw-my-2">
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>
+        <ul class="tw-flex tw-flex-row tw-justify-between">
+          <li class="tw-flex tw-items-center tw-justify-center tw-h-10 tw-w-10 tw-bg-ir-light-grey/20 tw-text-ir-light-grey tw-rounded-full tw-text-sm tw-cursor-pointer">1</li>
+          <li class="tw-flex tw-items-center tw-justify-center tw-h-10 tw-w-10 tw-bg-ir-light-grey/20 tw-text-ir-light-grey tw-rounded-full tw-text-sm tw-cursor-pointer">2</li>
+          <li class="tw-flex tw-items-center tw-justify-center tw-h-10 tw-w-10 tw-bg-ir-light-grey/20 tw-text-ir-light-grey tw-rounded-full tw-text-sm tw-cursor-pointer">3</li>
+          <li class="tw-flex tw-items-center tw-justify-center tw-h-10 tw-w-10 tw-bg-ir-light-grey/20 tw-text-ir-light-grey tw-rounded-full tw-text-sm tw-cursor-pointer">4</li>
+          <li class="tw-flex tw-items-center tw-justify-center tw-h-10 tw-w-10 tw-bg-ir-light-grey/20 tw-text-ir-light-grey tw-rounded-full tw-text-sm tw-cursor-pointer">5</li>          
+        </ul>
+        <div>
+          <button type="submit" class="tw-text-center tw-w-full tw-bg-ir-orange tw-py-3 tw-mt-4 tw-uppercase tw-rounded-full tw-tracking-wider tw-font-bold tw-text-sm">submit</button>
+        </div>
+      </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <!--thank you card-->
+      <div class="tw-hidden">
+        <div></div>
+        <div>
+          You selected <!-- Add rating here --> out of 5
+        </div>
+        <div>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>  
+  <div class="tw-text-white/50 tw-text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="tw-underline tw-underline-offset-2" rel="noreferrer noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Deeokafor/fr-interactive-rating-component" class="tw-underline tw-underline-offset-2">Okafor-udah Divine </a>.
   </div>
 </body>
 </html>
