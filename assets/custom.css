@@ -3,3 +3,30 @@
 :root {
     font-family: 'Overpass';
 }
+
+main {
+    animation-name: opacity-increase;
+    animation-duration: 1000ms;
+    animation-timing-function: ease-in-out;
+}
+
+.rating-card, .thank-you-card {
+    animation-name: opacity-increase;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+}
+
+@keyframes opacity-increase {
+    0% {
+        opacity: 0;
+    }
+     25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 
+    }
+}
