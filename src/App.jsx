@@ -11,7 +11,7 @@ function App() {
         <div className="tw-h-11 tw-w-11 tw-flex tw-items-center tw-justify-center tw-bg-ir-medium-grey/15 tw-rounded-full">
           <img src="src/assets/images/icon-star.svg" alt="star" className="tw-shrink-0 tw-w-[17px]"/>
         </div>
-        <h1 className="tw-text-2xl tw-font-bold tw-my-2">How did we do?</h1>
+        <h1 className="tw-text-2xl tw-font-bold tw-mt-8">How did we do?</h1>
         <p className="tw-text-sm tw-text-ir-medium-grey tw-my-2">
           Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
         </p>
