@@ -567,25 +567,22 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.tw-my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .tw-my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.tw-mt-6 {
-  margin-top: 1.5rem;
+.tw-mt-4 {
+  margin-top: 1rem;
 }
 
 .tw-mt-8 {
   margin-top: 2rem;
-}
-
-.tw-mt-7 {
-  margin-top: 1.75rem;
-}
-
-.tw-mt-9 {
-  margin-top: 2.25rem;
 }
 
 .tw-flex {
@@ -596,6 +593,10 @@ video {
   display: none;
 }
 
+.tw-h-10 {
+  height: 2.5rem;
+}
+
 .tw-h-11 {
   height: 2.75rem;
 }
@@ -604,12 +605,36 @@ video {
   height: 3rem;
 }
 
+.tw-h-8 {
+  height: 2rem;
+}
+
+.tw-h-9 {
+  height: 2.25rem;
+}
+
+.tw-h-\[22rem\] {
+  height: 22rem;
+}
+
 .tw-h-\[24rem\] {
   height: 24rem;
 }
 
+.tw-h-\[26rem\] {
+  height: 26rem;
+}
+
+.tw-h-\[25rem\] {
+  height: 25rem;
+}
+
 .tw-min-h-screen {
   min-height: 100vh;
+}
+
+.tw-w-10 {
+  width: 2.5rem;
 }
 
 .tw-w-11 {
@@ -620,8 +645,20 @@ video {
   width: 3rem;
 }
 
+.tw-w-36 {
+  width: 9rem;
+}
+
+.tw-w-9 {
+  width: 2.25rem;
+}
+
 .tw-w-\[17px\] {
   width: 17px;
+}
+
+.tw-w-\[22rem\] {
+  width: 22rem;
 }
 
 .tw-w-\[24rem\] {
@@ -630,6 +667,18 @@ video {
 
 .tw-w-full {
   width: 100%;
+}
+
+.tw-w-\[26rem\] {
+  width: 26rem;
+}
+
+.tw-w-\[25rem\] {
+  width: 25rem;
+}
+
+.tw-w-\[2rem\] {
+  width: 2rem;
 }
 
 .tw-shrink-0 {
@@ -682,8 +731,16 @@ video {
   background-color: hsl(217 12% 63% / 0.2);
 }
 
+.tw-bg-ir-medium-grey\/10 {
+  background-color: hsl(216 12% 54% / 0.1);
+}
+
 .tw-bg-ir-medium-grey\/15 {
   background-color: hsl(216 12% 54% / 0.15);
+}
+
+.tw-bg-ir-medium-grey\/20 {
+  background-color: hsl(216 12% 54% / 0.2);
 }
 
 .tw-bg-ir-orange {
@@ -696,8 +753,17 @@ video {
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity, 1));
 }
 
+.tw-bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+
 .tw-bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.tw-bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
 .tw-from-ir-dark-blue {
@@ -706,13 +772,54 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.tw-from-ir-dark-blue\/40 {
+  --tw-gradient-from: hsl(213 19% 18% / 0.4) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(213 19% 18% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.tw-to-ir-dark-blue {
+  --tw-gradient-to: hsl(213, 19%, 18%) var(--tw-gradient-to-position);
+}
+
 .tw-to-ir-dark-blue\/40 {
   --tw-gradient-to: hsl(213 19% 18% / 0.4) var(--tw-gradient-to-position);
+}
+
+.tw-p-4 {
+  padding: 1rem;
+}
+
+.tw-p-7 {
+  padding: 1.75rem;
+}
+
+.tw-p-\[0\.65rem\] {
+  padding: 0.65rem;
+}
+
+.tw-p-9 {
+  padding: 2.25rem;
+}
+
+.tw-px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.tw-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .tw-px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.tw-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .tw-py-4 {
@@ -728,6 +835,16 @@ video {
 .tw-py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.tw-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tw-py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .tw-text-center {
@@ -760,6 +877,18 @@ video {
   line-height: 15px;
 }
 
+.tw-leading-3 {
+  line-height: .75rem;
+}
+
+.tw-leading-\[1\] {
+  line-height: 1;
+}
+
+.tw-tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .tw-tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -774,9 +903,17 @@ video {
   color: hsl(216 12% 54% / var(--tw-text-opacity, 1));
 }
 
+.tw-text-ir-orange\/90 {
+  color: hsl(25 97% 53% / 0.9);
+}
+
 .tw-text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.tw-text-white\/50 {
+  color: rgb(255 255 255 / 0.5);
 }
 
 .tw-underline {
@@ -791,6 +928,10 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.tw-duration-200 {
+  transition-duration: 200ms;
 }
 
 .tw-duration-300 {
