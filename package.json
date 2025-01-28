@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://deeokafor.github.io/fm-interactive-rating-component/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dev-tw": "npx tailwindcss -i ./src/index.css -o  ./src/App.css --watch"
+    "dev-tw": "npx tailwindcss -i ./src/index.css -o  ./src/App.css --watch",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
