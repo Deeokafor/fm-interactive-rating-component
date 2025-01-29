@@ -585,6 +585,14 @@ video {
   margin-top: 2rem;
 }
 
+.tw-mt-7 {
+  margin-top: 1.75rem;
+}
+
+.tw-mt-6 {
+  margin-top: 1.5rem;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -615,14 +623,6 @@ video {
 
 .tw-h-\[22rem\] {
   height: 22rem;
-}
-
-.tw-h-\[24rem\] {
-  height: 24rem;
-}
-
-.tw-h-\[26rem\] {
-  height: 26rem;
 }
 
 .tw-h-\[25rem\] {
@@ -661,24 +661,12 @@ video {
   width: 22rem;
 }
 
-.tw-w-\[24rem\] {
-  width: 24rem;
-}
-
-.tw-w-full {
-  width: 100%;
-}
-
-.tw-w-\[26rem\] {
-  width: 26rem;
-}
-
 .tw-w-\[25rem\] {
   width: 25rem;
 }
 
-.tw-w-\[2rem\] {
-  width: 2rem;
+.tw-w-full {
+  width: 100%;
 }
 
 .tw-shrink-0 {
@@ -753,9 +741,12 @@ video {
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity, 1));
 }
 
-.tw-bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+.tw-bg-ir-light-grey\/50 {
+  background-color: hsl(217 12% 63% / 0.5);
+}
+
+.tw-bg-ir-light-grey\/60 {
+  background-color: hsl(217 12% 63% / 0.6);
 }
 
 .tw-bg-gradient-to-b {
@@ -798,10 +789,6 @@ video {
   padding: 0.65rem;
 }
 
-.tw-p-9 {
-  padding: 2.25rem;
-}
-
 .tw-px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -832,16 +819,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.tw-py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
-.tw-py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .tw-py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
@@ -865,6 +842,20 @@ video {
   line-height: 1.25rem;
 }
 
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.tw-text-\[1\.6rem\] {
+  font-size: 1.6rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -875,10 +866,6 @@ video {
 
 .tw-leading-\[15px\] {
   line-height: 15px;
-}
-
-.tw-leading-3 {
-  line-height: .75rem;
 }
 
 .tw-leading-\[1\] {
@@ -914,6 +901,14 @@ video {
 
 .tw-text-white\/50 {
   color: rgb(255 255 255 / 0.5);
+}
+
+.tw-text-\[\] {
+  color: ;
+}
+
+.tw-text-\[1\.6\] {
+  color: 1.6;
 }
 
 .tw-underline {
