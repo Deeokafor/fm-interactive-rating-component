@@ -1,7 +1,6 @@
-import { useState, useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 
-export default function RatingList() {
-  const [selectedRating, setSelectedRating] = useState(null);
+export default function RatingList({ selectedRating, setSelectedRating }) {
   const ratingRefs = useRef([]);
 
   useEffect(() => {
@@ -9,14 +8,14 @@ export default function RatingList() {
       // Remove the class from all ratings
       ratingRefs.current.forEach((ref) => {
         if (ref) {
-          ref.classList.remove('tw-bg-ir-light-grey/60', 'tw-text-white');
+          ref.classList.remove('tw-bg-ir-orange', 'tw-text-white');
         }
       });
 
       // Add the class to the selected rating
       const selectedRef = ratingRefs.current[selectedRating - 1];
       if (selectedRef) {
-        selectedRef.classList.add('tw-bg-ir-light-grey/60', 'tw-text-white');
+        selectedRef.classList.add('tw-bg-ir-orange', 'tw-text-white');
       }
     }
   }, [selectedRating]);

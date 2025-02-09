@@ -1,11 +1,14 @@
+import React, { useState } from 'react';
 import "./App.css";
 import "./custom.css";
-import SubmitButton from "./components/SubmitButton.jsx";
-import Footer from "./components/Footer.jsx";
+import {SubmitButton} from "./components/SubmitButton.jsx";
+import {Footer} from "./components/Footer.jsx";
 import RatingList from "./components/RatingList.jsx";
-import { ThankYou } from "./components/ThankYou.jsx";
+import {ThankYou} from "./components/ThankYou.jsx";
 
 function App() {
+  const [selectedRating, setSelectedRating] = useState(null);
+
   return (
     <div className="tw-min-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-[15px] tw-text-white tw-bg-ir-very-dark-blue">
       <main className="tw-rounded-3xl tw-flex tw-flex-col tw-items-start tw-justify-between tw-h-[25rem] tw-w-[25rem] tw-px-8 tw-py-9 tw-bg-gradient-to-b tw-from-ir-dark-blue tw-to-ir-dark-blue/40">
@@ -16,8 +19,8 @@ function App() {
         <p className="tw-text-ir-medium-grey tw-my-2">
           Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
         </p>
-        <RatingList />
-        <SubmitButton />
+        <RatingList selectedRating={selectedRating} setSelectedRating={setSelectedRating} />
+        <SubmitButton selectedRating={selectedRating} />
       </main>
 
       <ThankYou />

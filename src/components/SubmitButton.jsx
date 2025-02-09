@@ -1,6 +1,6 @@
-export default function Button() {
+export function SubmitButton({selectedRating}) {
     function handleClick() {
-        alert(`Submit button clicked`);
+        alert(`You selected ${selectedRating} stars!`);
     }
 
     return (
