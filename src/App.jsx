@@ -10,8 +10,8 @@ function App() {
   const [selectedRating, setSelectedRating] = useState(null);
 
   return (
-    <div className="tw-min-h-screen tw-flex tw-flex-col tw-justify-center tw-items-center tw-text-[15px] tw-text-white tw-bg-ir-very-dark-blue">
-      <main className="tw-rounded-3xl tw-flex tw-flex-col tw-items-start tw-justify-between tw-h-[25rem] tw-w-[25rem] tw-px-8 tw-py-9 tw-bg-gradient-to-b tw-from-ir-dark-blue tw-to-ir-dark-blue/40">
+    <>
+      <main className="rating-card tw-rounded-3xl tw-flex tw-flex-col tw-items-start tw-justify-between md:tw-h-[25rem] md:tw-w-[25rem] tw-px-8 tw-py-9 tw-bg-gradient-to-b tw-from-ir-dark-blue tw-to-ir-dark-blue/40">
         <div className="tw-h-11 tw-w-11 tw-flex tw-items-center tw-justify-center tw-bg-ir-medium-grey/15 tw-rounded-full">
           <img src="src/assets/images/icon-star.svg" alt="star" className="tw-shrink-0 tw-w-[17px]"/>
         </div>
@@ -23,9 +23,9 @@ function App() {
         <SubmitButton selectedRating={selectedRating} />
       </main>
 
-      <ThankYou />
+      <ThankYou selectedRating={selectedRating}/>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -8,14 +8,14 @@ export default function RatingList({ selectedRating, setSelectedRating }) {
       // Remove the class from all ratings
       ratingRefs.current.forEach((ref) => {
         if (ref) {
-          ref.classList.remove('tw-bg-ir-orange', 'tw-text-white');
+          ref.classList.remove('tw-bg-ir-light-grey/80', 'tw-text-white');
         }
       });
 
       // Add the class to the selected rating
       const selectedRef = ratingRefs.current[selectedRating - 1];
       if (selectedRef) {
-        selectedRef.classList.add('tw-bg-ir-orange', 'tw-text-white');
+        selectedRef.classList.add('tw-bg-ir-light-grey/80', 'tw-text-white');
       }
     }
   }, [selectedRating]);
