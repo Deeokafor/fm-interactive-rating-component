@@ -31,20 +31,35 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<figure>
+  <img src="./src/assets/images/mobile_screen_select_rating.png" width="40%">
+  <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">mobile screen - select rating card</figcaption>
+</figure>
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+<figure>
+  <img src="./src/assets/images/mobile_screen_thank_you_card.png" width="40%">
+  <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">mobile screen - thank you card</figcaption>
+</figure>
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+<figure>
+  <img src="./src/assets/images/desktop_screen_thank_you_card.png" width="100%">
+  <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">desktop screen - Select rating card</figcaption>
+</figure>
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+<figure>
+  <img src="./src/assets/images/desktop_screen_select_rating.png" width="100%">
+  <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">desktop screen - thank you card</figcaption>
+</figure>
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<figure>
+  <img src="./src/assets/images/hover_states.png" width="100%">
+  <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">hover states</figcaption>
+</figure>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/Deeokafor/fm-interactive-rating-component)
+- Live Site URL: [Live Site](https://deeokafor.github.io/fm-interactive-rating-component/)
 
 ## My process
 
@@ -53,61 +68,40 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
+- Ai Prompting
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Vite](https://vite.com/) - An efficient alternative to `create-react-app` for building React projects.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I decided to write this project in React.js. It wasn't an easy process but I saw myself going back to refresh on the fundamentals of css, js and new stuffs like react states and props.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Going forward, my focus areas will be react props and states. I need to have a consolidated understanding of how they work and how they affect the whole scope of a feature in building. Learning that props in react could be used with the spread operator `...props` almost made me go lazy with wanting to use it in all my props instances but discovering that it wasn't good practice put me in check. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also came across modern css selectors like `:has()` and `nesting`. These too, will have my focus shifted to them in future projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [React.dev](https://www.react.dev/learn) - This helped me a great deal with implementing the overall project in react. I got a good laugh when I learned that default components in react can be imported into other components with very unrelated names like `import { banana } from 'utils.js'` provided that "banana" in the utils.js file is exported as a default app. (lol)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [w3Schools](https://www.w3schools.com/jsref/met_node_appendchild.asp) - I found hardcoding the ratings from 1 to 5 quite unnecessary, so I needed to know how to tell the program to do that for me with few instructions which led me to practising this.
+
+- [www.freecodecamp.org](https://www.freecodecamp.org/news/what-is-box-sizing-border-box-css/) - My css became buggy along the line and this article from freecodecamp gave me some insight into crushing bugs the box-sizing way.
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Divine Okafor-udah](https://deedev.netlify.app/)
+- Frontend Mentor - [@deeokafor](https://www.frontendmentor.io/profile/Deeokafor)
+- Twitter - [@deeokafor](https://www.twitter.com/deeokafor)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thank you Copilot and Bing!!
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
