@@ -32,27 +32,27 @@ Users should be able to:
 ### Screenshot
 
 <figure>
-  <img src="./src/assets/images/mobile_screen_select_rating.png" width="40%">
+  <img src="public//assets/images/mobile_screen_select_rating.png" width="40%">
   <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">mobile screen - select rating card</figcaption>
 </figure>
 
 <figure>
-  <img src="./src/assets/images/mobile_screen_thank_you_card.png" width="40%">
+  <img src="public//assets/images/mobile_screen_thank_you_card.png" width="40%">
   <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">mobile screen - thank you card</figcaption>
 </figure>
 
 <figure>
-  <img src="./src/assets/images/desktop_screen_thank_you_card.png" width="100%">
+  <img src="public/assets/images/desktop_screen_thank_you_card.png" width="100%">
   <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">desktop screen - Select rating card</figcaption>
 </figure>
 
 <figure>
-  <img src="./src/assets/images/desktop_screen_select_rating.png" width="100%">
+  <img src="public/assets/images/desktop_screen_select_rating.png" width="100%">
   <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">desktop screen - thank you card</figcaption>
 </figure>
 
 <figure>
-  <img src="./src/assets/images/hover_states.png" width="100%">
+  <img src="public/assets/images/hover_states.png" width="100%">
   <figcaption style="margin: 0 0 50px 0; text-transform: capitalize">hover states</figcaption>
 </figure>
 
@@ -103,5 +103,8 @@ I also came across modern css selectors like `:has()` and `nesting`. These too, 
 
 ## Acknowledgments
 
-Thank you Copilot and Bing!!
+- Thank you AlexKMarshall, your suggestion to someone on deploying React apps on Vercel or Netlify rather than github pages helped. For some reason, I can't seem to find the particular post where you made the suggestion... didn't pin it.
+- Copilot
+- Chrome Dev Tools Ai
+- Bing
 

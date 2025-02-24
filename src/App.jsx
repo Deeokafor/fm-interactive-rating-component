@@ -13,7 +13,7 @@ function App() {
     <>
       <main className="rating-card tw-rounded-3xl tw-flex tw-flex-col tw-items-start tw-justify-between md:tw-h-[25rem] md:tw-w-[25rem] tw-px-8 tw-py-9 tw-bg-gradient-to-b tw-from-ir-dark-blue tw-to-ir-dark-blue/40">
         <div className="tw-h-11 tw-w-11 tw-flex tw-items-center tw-justify-center tw-bg-ir-medium-grey/15 tw-rounded-full">
-          <img src="src/assets/images/icon-star.svg" alt="star" className="tw-shrink-0 tw-w-[17px]"/>
+          <img src="/assets/images/icon-star.svg" alt="star" className="tw-shrink-0 tw-w-[17px]"/>
         </div>
         <h1 className="tw-text-2xl tw-font-bold tw-mt-6">How did we do?</h1>
         <p className="tw-text-ir-medium-grey tw-my-2">

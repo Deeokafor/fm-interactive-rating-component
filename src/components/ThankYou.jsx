@@ -2,7 +2,7 @@ function ThankYou({selectedRating}) {
     return (
         <div className="thank-you-card tw-h-[25rem] md:tw-h-[25rem] md:tw-w-[25rem] tw-px-8 tw-py-9 tw-rounded-3xl tw-flex tw-flex-col tw-items-center tw-justify-between tw-bg-gradient-to-b tw-from-ir-dark-blue tw-to-ir-dark-blue/40 tw-hidden">
             <div className="tw-flex tw-flex-row tw-justify-center tw-p-4">
-                <img src="./src/assets/images/illustration-thank-you.svg" alt="thank you" className="tw-w-36" />
+                <img src="/assets/images/illustration-thank-you.svg" alt="thank you" className="tw-w-36" />
             </div>
 
             <div className="tw-flex tw-items-center tw-justify-center tw-bg-ir-medium-grey/10 tw-rounded-full tw-px-4 tw-h-8 tw-text-ir-orange/90 tw-leading-[1]">
