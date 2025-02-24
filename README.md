@@ -59,7 +59,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Deeokafor/fm-interactive-rating-component)
-- Live Site URL: [Live Site](https://deeokafor.github.io/fm-interactive-rating-component/)
+- Live Site URL: [Live Site](https://fm-interactive-rating-component-six.vercel.app/)
 
 ## My process
 
